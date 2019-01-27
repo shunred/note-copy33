@@ -14,12 +14,14 @@
     margin: 0;
   }
   &__title{
+    width: 100%;
     font-size: 32px;
     font-weight: bold;
     letter-spacing: 0.04em;
     margin-top: 72px;
     margin-bottom: 18px;
     min-height: 1em;
+    word-wrap:break-word;
   }
   &__user{
     &__icon img{
@@ -42,10 +44,12 @@
     }
   }
   &__text{
+    width: 100%;
     font-size:18px;
     line-height: 36px;
     margin-top: 36px;
     margin-bottom: 36px;
+    word-wrap:break-word;
   }
   &__support{
     padding: 40px;
